@@ -1,0 +1,171 @@
+body{
+    background-color: grey;
+}
+.boxu{
+    border:7px solid red;
+    height:150px;
+    width:300px;
+    padding: 5px 60px;
+    text-align: center;
+    color: rgb(129, 48, 75);
+    border-radius: 10px;
+    position: relative;
+    font-size: large;
+    left: 500px;
+    font-style: italic;
+    background-color:white;
+    text-shadow: 0px 2px 3px  rgb(129, 48, 75);
+    box-shadow: 10px 10px purple;
+    margin-bottom: 20px; 
+}
+
+.greenbox{
+    border: 10px solid green;
+    height: 690px;
+    
+}
+
+.box{
+    width:250px;
+    height:270px;
+    border: 7px solid red;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 10px purple;
+}
+
+.box1{
+    float: left;
+    margin-bottom: 90px;
+    font-size: 14pt;
+    text-align: center;
+    line-height: 45px;
+    color: rgb(8, 25, 74);
+    text-shadow: 0px 2px 3px  rgb(129, 48, 75);
+    
+}
+
+.box2{
+    float: right;
+    position: relative;
+    right: 70px;
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.box3{
+    float: left;
+    clear: left;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(8, 25, 74);
+    text-shadow: 0px 2px 3px  rgb(129, 48, 75);
+    text-align: left;
+}
+
+.box4{
+    float: right;
+    position: relative;
+    right: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(8, 25, 74);
+    text-shadow: 0px 2px 3px  rgb(129, 48, 75);
+}
+
+.button{
+    background-color: red;
+    border-radius: 50px;
+}
+
+.parent{
+    width: 800px;
+    height: 570px;
+    margin-top: 50px;
+    border: 7px solid purple;
+    background-color: green;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pbox1{
+    width:390px;
+    height: 240px;
+    background-color: rgb(232, 232, 86);
+    border: 2px solid gainsboro;
+    float:left;
+    position: relative;
+    left: 5px;
+    font-style: italic;
+}
+
+.pbox2{
+    width:390px;
+    height: 240px;
+    background-color: rgb(232, 232, 86);
+    border: 2px solid gainsboro;
+    float: right;
+    position: relative;
+    right: 5px;
+    font-style: italic;
+}
+
+.pbox3{
+    width:800px;
+    height:200px;
+    background-color: rgb(232, 232, 86);
+    border: 2px solid gainsboro;
+    float: left;
+    position: relative;
+    top: 10px;
+    left:5px;
+    font-style: italic;
+}
+
+.offerbox{
+    width:600px;
+    height: 100px;
+    border: 8px solid red;
+    position: fixed;
+    left:30%;
+    bottom:50px;
+    background-color: #7ae83f;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap:wrap ;
+    color: maroon;
+    font-style: italic;
+    box-shadow: 10px 10px purple;
+}
+
+h3{
+    font-size: 20pt;
+    text-align: center;
+}
+
+.abc{
+    text-transform: uppercase;
+    line-height: 29px;
+    padding: 0px 10px;
+}
+
+.obox{
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    width: 250px;
+    
+}
